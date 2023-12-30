@@ -4,24 +4,23 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 70px;
 }
 
-.left {
+
+#left {
   width: 450px;
   display: inline-block;
-  padding: 20px;
+  margin-top:70px;
 }
 
-.right {
+#right {
   width: 300px;
   background-color: white;
   padding: 20px;
