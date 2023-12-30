@@ -6,26 +6,21 @@ body {
   height: 100vh;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-}
-
-
 #left {
   width: 450px;
   display: inline-block;
   margin-top:70px;
 }
 
-#right {
+form{
+  diplay:flex;
   width: 300px;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px #ccc;
+  flex-direction:column;
+  gap:10px;
 }
 
 form {
@@ -58,7 +53,7 @@ a {
 
 .signup {
   background-color: #42b72a;
-  border: none;
+   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   color: white;
