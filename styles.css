@@ -1,32 +1,38 @@
-/*  your css code here. If applicable */
-*{
-	margin:0;
-	padding:0;
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-body{
-	background-color:#f6f6f6;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:100vh;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 70px;
 }
 
-#id{
-	width:450px;
-	margin-top:70px;
-	display:inline-block;
+.left {
+  width: 450px;
+  display: inline-block;
+  padding: 20px;
 }
 
-form{
-	display:flex;
-	width:300px;
-	background-color:white;
-	padding:20px;
-	border-radius:5px;
-	box-shadow:0 0 10px #ccc;
-	flex-direction:column;
-	gap:10px;
+.right {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 input[type="text"],
@@ -34,6 +40,16 @@ input[type="password"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+}
+
+button[type="submit"] {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
 }
 
 a {
@@ -50,5 +66,3 @@ a {
   cursor: pointer;
   margin-top: 10px;
 }
-
-
